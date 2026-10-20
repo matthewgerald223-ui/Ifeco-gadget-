@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifeco Gadgets | Direct Computer Village Deals</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0b0f19;
+            color: #f8fafc;
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: #111827;
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #1f2937;
+        }
+
+        .brand-logo {
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .brand-logo span {
+            color: #2563eb;
+        }
+
+        nav a {
+            color: #9ca3af;
+            text-decoration: none;
+            margin-left: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .banner-container {
+            width: 100%;
+            background-color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .banner-img {
+            width: 100%;
+            max-height: 120px;
+            object-fit: contain;
+            display: block;
+        }
+
+        .hero {
+            padding: 24px 16px;
+            text-align: center;
+            background-color: #111827;
+            border-bottom: 1px solid #1f2937;
+        }
+
+        .hero-badge {
+            background-color: rgba(37, 99, 235, 0.2);
+            color: #60a5fa;
+            border: 1px solid #2563eb;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .hero h1 {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .hero h1 span {
+            color: #60a5fa;
+        }
+
+        .hero p {
+            font-size: 12px;
+            color: #9ca3af;
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 25px 0 15px;
+            font-size: 16px;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .gadgets-container {
+            padding: 0 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .gadget-card {
+            background-color: #111827;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #1f2937;
+        }
+
+        .gadget-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gadget-info {
+            padding: 14px;
+        }
+
+        .gadget-badge {
+            background-color: #1f2937;
+            color: #60a5fa;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 3px 8px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 6px;
+        }
+
+        .gadget-card h3 {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+
+        .gadget-specs {
+            font-size: 12px;
+            color: #9ca3af;
+            margin-bottom: 12px;
+        }
+
+        .btn-order {
+            display: block;
+            text-align: center;
+            background-color: #25D366;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .store-info-box {
+            background-color: #111827;
+            margin: 25px 16px;
+            padding: 16px;
+            border-radius: 12px;
+            border: 1px solid #1f2937;
+            font-size: 12px;
+        }
+
+        .store-info-box h3 {
+            color: #60a5fa;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .info-line {
+            margin-bottom: 8px;
+            color: #cbd5e1;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .contact-section {
+            background-color: #111827;
+            padding: 25px 16px;
+            text-align: center;
+            border-top: 1px solid #1f2937;
+        }
+
+        .whatsapp-main {
+            display: inline-block;
+            width: 100%;
+            background-color: #25D366;
+            color: #ffffff;
+            padding: 12px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: #080b12;
+            color: #6b7280;
+            text-align: center;
+            padding: 16px;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="brand-logo">IFECO <span>GADGETS</span></a>
+        <nav>
+            <a href="#stock">Stock</a>
+            <a href="#location">Address</a>
+        </nav>
+    </header>
+
+    <div class="banner-container">
+        <img src="banner.jpg" alt="Ifeco Gadgets Banner" class="banner-img">
+    </div>
+
+    <section class="hero">
+        <span class="hero-badge">Computer Village Ikeja Lagos</span>
+        <h1>Direct Importer Of <span>UK Used iPhones & Gadgets</span></h1>
+        <p>Phones | Laptops | Accessories | Wholesale & Retail</p>
+    </section>
+
+    <h2 class="section-title" id="stock">Available Stock</h2>
+    
+    <div class="gadgets-container">
+
+        <div class="gadget-card">
+            <img src="phones1.jpg" alt="Apple iPhone UK Used Batch">
+            <div class="gadget-info">
+                <span class="gadget-badge">Apple UK Used</span>
+                <h3>Clean iPhone Pro Series Batch</h3>
+                <div class="gadget-specs">Factory Unlocked | High Battery Health | Tested & Guaranteed</div>
+                <a href="https://wa.me/2348032198421?text=Hello%20Ifeco%20Gadgets,%20I%20am%20interested%20in%20your%20iPhone%20Pro%20Series%20stock" class="btn-order" target="_blank">💬 Order on WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="gadget-card">
+            <img src="phones2.jpg" alt="iPhone XR Stock">
+            <div class="gadget-info">
+                <span class="gadget-badge">Special Offer</span>
+                <h3>iPhone XR (256GB Clean Stock)</h3>
+                <div class="gadget-specs">Multiple Colors Available | Clean Grade A Foreign Used</div>
+                <a href="https://wa.me/2348032198421?text=Hello%20Ifeco%20Gadgets,%20I%20want%20to%20inquire%20about%20iPhone%20XR%20256GB" class="btn-order" target="_blank">💬 Order on WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="gadget-card">
+            <img src="display.jpg" alt="Store Display Showcase">
+            <div class="gadget-info">
+                <span class="gadget-badge">Full Inventory</span>
+                <h3>Latest iPhones & Boxed Accessories</h3>
+                <div class="gadget-specs">All models available on counter for instant pickup and testing</div>
+                <a href="https://wa.me/2348032198421?text=Hello%20Ifeco%20Gadgets,%20send%20me%20your%20full%20price%20list" class="btn-order" target="_blank">💬 Request Full Price List</a>
+            </div>
+        </div>
+
+        <div class="gadget-card">
+            <img src="seller.jpg" alt="In-Store Sales Counter">
+            <div class="gadget-info">
+                <span class="gadget-badge">Verified Seller</span>
+                <h3>Direct Counter Service</h3>
+                <div class="gadget-specs">Visit our store at Computer Village or order nationwide delivery</div>
+                <a href="https://wa.me/2348032198421?text=Hello%20Ifeco%20Gadgets,%20I%20want%20to%20place%20an%20order" class="btn-order" target="_blank">💬 Connect With Sales Team</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="store-info-box" id="location">
+        <h3>📍 Official Store Contact Details</h3>
+        <div class="info-line">📍 <strong>Address:</strong> 8b, Otigba Street, Computer Village Ikeja, Lagos State</div>
+        <div class="info-line">📞 <strong>Phone/WhatsApp:</strong> +234 803 219 8421</div>
+        <div class="info-line">✉️ <strong>Email:</strong> ifechkwuoruta2@gmail.com</div>
+        <div class="info-line">📸 <strong>Instagram:</strong> @Ifeco_gadgets</div>
+    </div>
+
+    <section class="contact-section">
+        <a href="https://wa.me/2348032198421?text=Hello%20Ifeco%20Gadgets,%20I%20got%20your%20number%20from%20your%20website" class="whatsapp-main" target="_blank">
+            💬 Chat Directly On WhatsApp
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ifeco Gadgets. All rights reserved.</p>
+    </footer>
+
+</body>
+  </html>
+  
